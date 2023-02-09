@@ -22,7 +22,7 @@
 # This should contain all setup required by all other targets, such as environment
 # variables, and essential apt dependencies.
 ##
-FROM python:3.7.3-slim AS base
+FROM python:3.11.1-slim AS base
 
 # Allows for log messages to be immediately dumped to the 
 # stream instead of being buffered.
